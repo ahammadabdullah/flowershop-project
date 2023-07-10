@@ -102,7 +102,7 @@ header {
     background-size: 465px 540px  ;
     width: 370px;
     height: 370px;
-    padding:110px 75px 50px 75px;
+    padding:110px 75px 60px 75px;
 
 }
 .flower-image-third{
@@ -119,4 +119,25 @@ header {
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+/* service section related styles starts here  */
+
+.services-container{
+    margin: 130px 440px 130px  492px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.service-image{
+    padding-top: 86px;
+    padding-bottom: 86px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
