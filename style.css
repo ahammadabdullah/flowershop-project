@@ -41,7 +41,7 @@ header {
     width: 635px;
 }
 
-.btn-first{
+.btn-primary{
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -173,7 +173,7 @@ header {
     text-align: center;
 }
 
-/* inline css for "off" marked/colored text is in 76th line  */
+/* inline css for "off" marked/colored text in span tag which is placed on 77th line  */
 
 
 /* instagram section starts from here */
@@ -205,6 +205,51 @@ header {
     justify-content: center;
 }
 
+/* bonus section / deal of the day section starts from here  */
+
+.review-container{
+    text-align: center;
+    background: rgba(5, 151, 160, 0.15);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 600px;
+    padding: 50px;
+}
+
+.reviewer-img{
+    border-radius: 50%;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.review-container h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.review-container h4{
+    color: #E55473;
+    font-size: 26px;
+}
+
+.review-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 50px;
+    
+}
+
+.review-container h5{
+    padding-top:25px ;
+    font-size: 22px;
+}
+ /* inline css added in span tag for reviewer name  */
+
+
 /* newsletter section related styles starts from here  */
 
 .newsletter-container{
@@ -233,6 +278,10 @@ header {
     line-height: 30px;
     padding-top: 25px;
     padding-bottom: 50px;
+}
+
+.btn-secondary{
+    margin-left: 20px;
 }
 
 #email {
@@ -275,3 +324,4 @@ footer h4{
     font-weight: 400;
     padding-top: 35px;
 }
+
