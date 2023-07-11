@@ -7,30 +7,37 @@
 /* header related styles starting here  */
 
 header {
-    width: 1920px;
-    height: 850px;
+    width: 100%;
+    height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
-    padding-left: 240px;
-    padding-right: 240px;
+    /* padding-left: 240px;
+    padding-right: 240px; */
+    h
 }
 
 .header-container{
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 100px;
 }
 .header-text{
-    padding-top: 200px;
-    width: 50%;
+    padding-top: 150px;
+    padding-left: 100px;
+    width: 65%;
 }
 .header-container h3{
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
-    width: 780px;
-
-
+    width: 80%;
 }
 
+.header-image{
+    padding-top: 15px;
+    width: 550px;
+}
 .header-container p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -53,13 +60,15 @@ header {
 
 .header-img{
     padding-top: 50px;
+    padding-left: 100px;
 }
 
 /* featured flowers section related styles starts from here */
 
 .featured-flowers-section{
-    margin: 180px 240px 0px 300px;
-    max-width: 1920px;
+    margin: auto;
+    margin-top: 180px;
+    max-width: 80%;
 }
 
 .featured-flowers-title{
@@ -91,29 +100,28 @@ header {
 .flower-image-first{
     background-image: url(./images/pink\ bg.png);
     background-repeat: no-repeat;
-    background-size: 465px 540px ;
-    width: 310px;
-    height: 430px;
+    background-size: 350px 400px;
+    width: 200px;
     padding:110px 75px 0px 75px;
 }
 .flower-image-second{
     background-image: url(./images/ash.png);
     background-repeat: no-repeat;
-    background-size: 465px 540px  ;
-    width: 370px;
-    height: 370px;
-    padding:110px 75px 60px 75px;
-
+    background-size: 350px 400px;
+    width: 200px;
+    height: 200px;
+    padding:110px 75px 80px 75px;
 }
+
 .flower-image-third{
     background-image: url(./images/light.png);
     background-repeat: no-repeat;
-    background-size: 465px 540px  ;
-    width: 310px;
-    height: 430px;
-    padding:110px 75px 0px 75px;
-
+    background-size: 350px 400px;
+    width: 200px;
+    padding:90px 75px 0px 75px;
 }
+
+
 
 .featured-flowers-container{
     display: flex;
@@ -124,11 +132,14 @@ header {
 /* service section related styles starts here  */
 
 .services-container{
-    margin: 130px 440px 130px  492px;
+    width: 77%;
+    margin: auto;
+    margin-top:70px;
+    margin-bottom: 70px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
-    gap: 150px;
+    gap: 100px;
     justify-content: center;
 }
 
@@ -151,7 +162,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 430px;
+    padding: 100px 0px;
+    width: 100%;
     
 }
 
@@ -179,8 +191,11 @@ header {
 /* instagram section starts from here */
 
 .instagram_section{
-    margin: 130px 240px 130px 240px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
     background: #fff;
+    width: 80%;
 }
 
 .instagram_section h3{
@@ -204,7 +219,9 @@ header {
     gap: 30px;
     justify-content: center;
 }
-
+.ig-img{
+    width: 270px;
+}
 /* bonus section / deal of the day section starts from here  */
 
 .review-container{
@@ -213,7 +230,9 @@ header {
     margin-top: 70px;
     margin-bottom: 70px;
     height: 600px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
 }
 
 .reviewer-img{
@@ -253,9 +272,11 @@ header {
 /* newsletter section related styles starts from here  */
 
 .newsletter-container{
-    margin: 130px 220px 130px 460px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
     background-image: url('./images/Rectangle\ 9.png');
-    width: 1450px;
     height: 449px;
     background-repeat: no-repeat;
     text-align: center;
@@ -299,6 +320,7 @@ header {
 
 footer{
     height: 449px;
+    width: 100%;
     background: #111010;
     text-align: center;
 }
